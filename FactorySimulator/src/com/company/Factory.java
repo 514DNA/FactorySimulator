@@ -6,6 +6,8 @@ public class Factory {
     private String name;
     private String info;
     private ArrayList<Farm> farms = new ArrayList<>();
+    private ArrayList<Member> members = new ArrayList<>();
+
     public Factory()
     {
         this.name = "deep dark fantasy";
